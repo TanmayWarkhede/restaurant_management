@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #ff4757;
+    color: white;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+#menu {
+    padding: 20px;
+    text-align: center;
+}
+
+#menu h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.menu-item {
+    display: inline-block;
+    width: 23%; /* Adjusted width for four items in a row */
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+.menu-item img {
+    width: 100%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
+    max-height: 200px; /* Set a maximum height for uniformity */
+    border-radius: 10px;
+}
+
+.menu-item h3 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.menu-item p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.menu-item button {
+    background-color: #ff6b81;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.menu-item button:hover {
+    background-color: #ff4757;
+}
+
+#cart, #summary, #track {
+    padding: 20px;
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ff4757;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
